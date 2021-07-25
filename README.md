@@ -26,7 +26,7 @@ Figure 2a illustrates that the overall manufacturing run variance is within 100 
 ![Figure 2b: Suspension Coil Lot Summary](other_resources/02b_Lot_Summary.png)
 [Figure 2b: Suspension Coil Lot Summary](other_resources/02b_Lot_Summary.png?raw=true "Figure 2b: Suspension Coil Lot Summary")
 
-Figure 2b shows that Lot 3 violates the stipulation that variance be within 100 PSI, with a value of 170.29 PSI.  Lots 1 and 2 both fall well within the specified paramaters.
+Figure 2b shows that Lot 3 violates the stipulation that variance be within 100 PSI, with a value of 170.29 PSI.  Lots 1 and 2 both fall well within the specified paramater.
 
 ## T-Tests on Suspension Coils
 
@@ -44,16 +44,16 @@ Figure 3a shows a p-value greater than the significance level of .05, indicating
 Figure 3b shows a very high p-value, indicating that Lot 1 has a mean statistically similar to 1500.
 
 
-![Figure 3c: Lot 2 T-Test](other_resources/03b_Lot2_tTest.png)
-[Figure 3c: Lot 2 T-Test](other_resources/03b_Lot2_tTest.png?raw=true "Figure 3b: Lot 2 T-Test")
+![Figure 3c: Lot 2 T-Test](other_resources/03c_Lot2_tTest.png.png)
+[Figure 3c: Lot 2 T-Test](other_resources/03c_Lot2_tTest.png?raw=true "Figure 3c: Lot 2 T-Test")
 
 Figure 3c exhibits again a p-value greater than the significance level: the mean is statistically similar to the hypothesized value of 1500.
 
 
-![Figure 3e: Lot 3 T-Test](other_resources/03b_Lot3_tTest.png)
-[Figure 3e: Lot 3 T-Test](other_resources/03b_Lot3_tTest.png?raw=true "Figure 3b: Lot 3 T-Test")
+![Figure 3d: Lot 3 T-Test](other_resources/03d_Lot3_tTest.png)
+[Figure 3d: Lot 3 T-Test](other_resources/03d_Lot3_tTest.png?raw=true "Figure 3d: Lot 3 T-Test")
 
-Figure 3e shows the t test results for Lot 3.  Evidentally there were production problems in Lot 3, as the p-value is low enough that we can reject the null hypothesis of equality with 1500.  Statitically, the mean PSI is different from 1500 in Lot 3.
+Figure 3d shows the t test results for Lot 3.  Evidentally there were production problems in Lot 3, as the p-value is low enough that we can reject the null hypothesis of equality with 1500.  Statitically, the mean PSI is different from 1500 in Lot 3.
 
 
 
@@ -61,8 +61,8 @@ Figure 3e shows the t test results for Lot 3.  Evidentally there were production
 ## Study Design: MechaCar vs Competition
 
     
-Of paramount importance to budget concious car consumers is maintenance cost of a vehicle over time.  In particular, a lower maintenance cost per unit of price expended for the initial ownership of vehicle is more valuable to the marginal consumer than the alternative.  Thus, the ratio of Maintenance cost to Price (Maint_to_Price) would ideally be low compared to the competition.  At the same time, lower Maintenance Cost to Price ratio indicates room for price increase.
+Of paramount importance to budget conscious car consumers is maintenance cost of a vehicle over time.  In particular, a lower maintenance cost per unit of price expended for the initial ownership of vehicle is more valuable to the marginal consumer than the alternative.  Thus, the ratio of Maintenance cost to Price (Maint_to_Price) would ideally be low compared to the competition.  At the same time, lower Maintenance Cost to Price ratio indicates room for price increase.
 
 Significant data gathering requirements are necessary for the described analysis.  While price as a variable is not difficult to gather, cost of ownership by age of vehicle is somewhat more difficult.  AAA seems to have the data, but it is not available to the public.  A research budget will likely be necessary to incentivize some random sample of new vehicle owners, across a random spectrum of car brand owners to collect car maintenance cost data over the course of some time period (e.g. 1 year).
 
-Once the data is gathered, the statistical test would be a T-Test comparison of the means of the aforementioned ratio.  The null hypothesis is that the means of Mechanacar Maint_to_Price ratios are less than or equal to competitors, while the alternative hypothesis is that Mechanacar Maint_to_Price ratios are larger than competitors.  This test of means should statistically show that Mechanacar's Maintenance per unit of price is lower than the competition, and by how much prices may be raised.
+Once the data is gathered, the statistical test would be a T-Test comparison of the means of the aforementioned ratio.  The null hypothesis is that the means of MechanaCar Maint_to_Price ratios are less than or equal to competitors, while the alternative hypothesis is that MechanaCar Maint_to_Price ratios are larger than competitors.  This test of means should statistically show that MechanaCar's maintenance per unit of price is lower than the competition, and by how much prices may be raised.
