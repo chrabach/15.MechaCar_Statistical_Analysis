@@ -1,3 +1,11 @@
+#things I want ignored
+15.R
+MechaCar_mpg.csv
+Suspension_Coil.csv
+READ Me Draft.docx
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
