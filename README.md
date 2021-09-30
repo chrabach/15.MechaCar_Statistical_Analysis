@@ -66,3 +66,12 @@ Of paramount importance to budget conscious car consumers is maintenance cost of
 Significant data gathering requirements are necessary for the described analysis.  While price as a variable is not difficult to gather, cost of ownership by age of vehicle is somewhat more difficult.  AAA seems to have the data, but it is not available to the public.  A research budget will likely be necessary to incentivize some random sample of new vehicle owners, across a random spectrum of car brand owners to collect car maintenance cost data over the course of some time period (e.g. 1 year).
 
 Once the data is gathered, the statistical test would be a T-Test comparison of the means of the aforementioned ratio.  The null hypothesis is that the means of MechaCar Maint_to_Price ratios are less than or equal to competitors, while the alternative hypothesis is that MechaCar Maint_to_Price ratios are larger than competitors.  This test of means should statistically show that MechaCar's maintenance per unit of price is lower than the competition, and by how much prices may be raised.
+
+------
+**Contact:**
+
+**E-Mail:** chrabach@gmail.com
+
+**Twitter:** @chrabach
+
+
